@@ -1,0 +1,20 @@
+{
+  "name": "tquery",
+  "version": "1.0.0",
+  "description": "Library for manipulation tree, similar to jQuery",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack",
+    "build": "webpack -p"
+  },
+  "author": "Łukasz Tymiński",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.5.2"
+  }
+}
